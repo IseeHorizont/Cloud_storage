@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.control.TextArea?>
+<AnchorPane fx:controller="io.CloudController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="input" onAction="#sendCommand" layoutX="28.0" layoutY="28.0" prefHeight="34.0" prefWidth="577.0" />
+      <TextArea fx:id="output" editable="false" layoutX="28.0" layoutY="73.0" prefHeight="443.0" prefWidth="577.0" />
+   </children>
+</AnchorPane>
